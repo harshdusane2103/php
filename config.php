@@ -38,8 +38,19 @@
       }
     }
 
+      public function fetch()
+      {
+         $query ="SELECT * FROM note";
+         $res = mysqli_query($this->connection,$query);
+         return $res;
+      }
+      public function delete($id)
+      {
+         $query ="DELETE FROM note WHERE id = $id";
+         $res = mysqli_query($this->connection,$query);
+         return $res;
 
-
+      }
 
 
  }
