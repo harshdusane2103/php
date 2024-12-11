@@ -1,4 +1,9 @@
+<h1 align="center">Insert In API GET AND POST Method </h1>
 
+
+
+
+<video src="https://github.com/user-attachments/assets/5ad41c47-5f2e-4bdb-bebc-a5057903a435"></video>
 <h1 align="center">PHP Registration Form</h1>
 
   ## Description
