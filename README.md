@@ -1,9 +1,13 @@
 
 <h1 align="center">PHP Registration Form</h1>
+<p>
+  
+</p>
 <video src="https://github.com/user-attachments/assets/4a1b2543-0b3a-4c46-9f47-c93c4051b2d0"></video>
 
 
-
+## Description
+This project is a simple employee registration form built using PHP and XAMPP as the server. It includes a fully functional CRUD (Create, Read, Update, Delete) operation for managing employee records. The form collects essential details such as name, email, position, and salary, and displays them in a table after submission. The application is styled with HTML and CSS, using Bootstrap for a responsive and modern design. Users can add, view, edit, and delete employee data through an intuitive interface. This project is ideal for anyone looking to learn how to work with PHP and manage data using MySQL on a local server, while leveraging the flexibility of Bootstrap to make the front end user-friendly and visually appealing.
 
 
 <h1 align="center">Insert Data In Database </h1>
