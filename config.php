@@ -28,12 +28,8 @@
     {
       $query = "INSERT INTO note(name,salary,role,age,address,phone) VALUES('$name','$salary','$role','$age','$address','$phone')";
       $res=mysqli_query($this->connection,$query);
-      if($res) {
-         echo "<script>alert('Data inserted successfully!');</script>";
-     } else {
-         echo "<script>alert('Data insertion failed!');</script>";
-     }
-    }
+      return $res;
+   }
 
       public function fetch()
       {
