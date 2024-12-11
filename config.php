@@ -28,14 +28,11 @@
     {
       $query = "INSERT INTO note(name,salary,role,age,address,phone) VALUES('$name','$salary','$role','$age','$address','$phone')";
       $res=mysqli_query($this->connection,$query);
-      if($res)
-      {
-         echo"Data inserted successfully !";
-      }
-      else
-      {
-         echo"Data inserted failed !";
-      }
+      if($res) {
+         echo "<script>alert('Data inserted successfully!');</script>";
+     } else {
+         echo "<script>alert('Data insertion failed!');</script>";
+     }
     }
 
       public function fetch()
@@ -50,6 +47,12 @@
          $res = mysqli_query($this->connection,$query);
          return $res;
 
+      }
+      public function update($id,$name,$salary,$role,$age,$address,$phone)
+      {
+         $query = "UPDATE note SET name='$name',salary=$salary,role='$role',age='$age',address='$address',phone='$phone' WHERE id=$id";
+         $res = mysqli_query($this->connection,$query);
+         return $res; 
       }
 
 
