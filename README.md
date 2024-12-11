@@ -1,3 +1,11 @@
+
+<h1 align="center">CRUD Operation using PHP  </h1>
+<video src="https://github.com/user-attachments/assets/76a90520-8cdb-4f45-97e5-ee08563c39db"></video>
+
+
+
+
+
 <h1 align="center">Insert Data In Database </h1>
 
 <img src="https://github.com/user-attachments/assets/76a547a5-2352-40da-97f8-c7e8a73c27be">
