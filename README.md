@@ -1,5 +1,5 @@
 
-<h1 align="center">INSERT & FETCH In API GET AND POST Method </h1>
+<h1 align="center">DELETE & UPDATE In API  </h1>
 <video src="https://github.com/user-attachments/assets/33ea267a-db5b-4957-8eba-76d0a78dbed0"></video>
 
 
