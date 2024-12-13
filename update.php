@@ -43,16 +43,65 @@ if (isset($_POST['button'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Employee Form</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .form-container {
+            background-image: url('https://img.freepik.com/free-vector/blue-fluid-background-frame_53876-99019.jpg?ga=GA1.1.1153095737.1726993841&semt=ais_hybrid');
+            background-size: cover;
+            background-position: center;
+            border-radius: 8px;
+            width: 500px;
+            height: 800px;
+            margin: 50px auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
 
+        .form-box {
+            background-color: rgba(254, 254, 254, 0.7);
+            padding: 20px;
+            width: 500px;
+            height: 500px;
+            border-radius: 8px;
+            border: none;
+        }
+
+        .heading {
+            color: black;
+            height: 80px;
+            text-align: center;
+            padding: 10px;
+            font-size: 30px;
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .form-control {
+            background-color: rgba(255, 255, 255, 0.7);
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            color: #000;
+        }
+
+        .form-control:focus {
+            background-color: rgba(255, 255, 255, 0.9);
+            border-color: #007bff;
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+        }
+
+        .table-box {
+            border: 2px solid #f5c6cb;  
+            border-radius: 8px;
+            background-color: #f8d7da;
+            padding: 20px;
+        }
+
+    </style>
 </head>
 
 <body>
-
+<div class="form-container">
     <div class="mx-auto p-2" style="width: 500px;">
         <span class="border border-light-subtle">
 
             <h1>Update Form</h1>
-            <div class="p-3 mb-2 bg-body-tertiary">
+        
                 <form method="post">
 
 
@@ -94,7 +143,7 @@ if (isset($_POST['button'])) {
         </span>
     </div>
 
-
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 
