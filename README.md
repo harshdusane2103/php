@@ -1,3 +1,12 @@
+<h1 align="center">Image Upload in API</h1>
+<video src="https://github.com/user-attachments/assets/cb741059-9128-43f4-bec8-36f783d1a1c2"></video>
+
+
+
+
+
+
+
 <h1 align="center">All in One  API (POST,GET,PUT,DELETE Method) </h1>
 <video src="https://github.com/user-attachments/assets/2f1a815e-eef6-4a38-b3bf-3767e5a3ef83"></video>
 
